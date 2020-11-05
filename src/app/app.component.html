@@ -1,4 +1,19 @@
 <app-navbar></app-navbar>
-<ul class="list-group">
-    <app-post *ngFor="let x of posts" [titlePost]="x"></app-post>
-</ul>
+
+<div class="container">
+   <form class="card my-4">
+        <div class="form-group">
+            <label for="titleInput">Tilte post</label>
+            <input type="title" class="form-control" id="titleInput"  placeholder="Enter Title" #title>
+            <small id="titlelHelp" class="form-text text-muted"></small>      
+         </div>
+        <button type="submit" class="btn btn-primary"  (click)="save(title.value)" >Submit</button>
+    </form>
+    <ul class="list-group">
+        <app-post *ngFor="let x of posts" [titlePost]="x"></app-post>
+    </ul>
+
+    <div class="row">
+        <app-post *ngFor="let o of postsObjects"  [titlePost]="o.title"></app-post>
+    </div>
+</div>
