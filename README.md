@@ -40,9 +40,9 @@ En tu proyecto deberán verse:
    -  el paquete npm de Bootstrap instalado. [OK]
    -  la importación de los css de bootstrap en los estilos globales de la app angular.[OK]
    -  el desarrollo de al menos un componente donde se utilicen los estilos de Bootstrap [OK]
-   -  al menos en un componente, la sintaxis {{ }} para cargar al menos un dato de alguna variable Typescript, por ejemplo, nombre o descripción.
-   -  un componente contenedor de un listado de objetos, en el cual se vea un array de elementos, y éstos deben verse en el navegador.
-   -  en la plantilla html del listado, un tag UL con elementos LI, y con uso de la directiva ngfor, que esté siendo usada para iterar sobre los elementos a mostrar.
+   -  al menos en un componente, la sintaxis {{ }} para cargar al menos un dato de alguna variable Typescript, por ejemplo, nombre o descripción. [OK]
+   -  un componente contenedor de un listado de objetos, en el cual se vea un array de elementos, y éstos deben verse en el navegador[OK].
+   -  en la plantilla html del listado, un tag UL con elementos LI, y con uso de la directiva ngfor, que esté siendo usada para iterar sobre los elementos a mostrar[OK].
    -  el uso de @HostBinding en al menos un componente
    -  en el componente de listado, un formulario html con resoluciones de angular (es decir las variables de plantilla con #), que sea utilizado para ingresar los datos
    -  que con la sintaxis de variables de formulario con el token #, al hacer click en un botón de submit, se invoque a una función del componente en typescript, con el fin de agregar un nuevo ítem al listado

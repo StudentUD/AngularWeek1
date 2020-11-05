@@ -1,4 +1,4 @@
 <app-navbar></app-navbar>
-
-<app-post [titlePost]="posts"></app-post>
-
+<ul class="list-group">
+    <app-post *ngFor="let x of posts" [titlePost]="x"></app-post>
+</ul>
