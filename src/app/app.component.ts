@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'week1-project';
+  posts= ['Post A','Post B', 'Pots C']; 
+
+
 }
